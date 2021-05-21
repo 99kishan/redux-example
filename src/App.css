@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family:monospace;
+}
+
+body{
+  background-image: url(img.jpg);
+  position: inherit;
+  object-fit:scale-down;  
+}
+.button{
+  background-color: #040504; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.b1{
+  background-color: rgb(0, 31, 117); 
+  color: rgb(255, 255, 255); 
+}
+
+.b1:hover {
+  background-color: #ffffff;
+  color: rgb(0, 31, 117);
+}
